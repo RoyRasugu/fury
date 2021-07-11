@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: YACkoButpeE 0", _fb_, auto;
+    
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/flash1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #ffff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.menu{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+.content{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.content p{
+    color: #fff;
+    font-size: 28px;
+}
+section{
+    background-color: pink;
+    
+}
+#click{
+    background-image: url(../img/weather.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.side{
+    position: absolute;
+    top: 40%;
+    left: 4%;
+}
+.side h1{
+    color: rgb(36, 154, 180);
+    font-size: 50px;
+}
+img{
+    height: 50vh;
+    float: right;
+    margin-top: 35vh;
+}
+.image{
+   margin-left: 100%;
+}
+.image img{
+    margin-top: 5em;
+    height: 500px;
+    width: 500px;
+    margin-right: 10px;
+}
+#paragraph{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.text{
+    position: absolute;
+    top: 65%;
+    left: 21%;
+    transform: translate(-50%,-50%);
+}
+.text p{
+    color: black;
+    letter-spacing: 0.038em;
+    font-family: "YACkoA9eHeY 0", _fb_, auto;
+    font-size: 25px;
+    text-transform: none;
+}
+.hunch{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+.hunch li{
+    display: inline-block;
+}
+.hunch li a{
+    text-decoration: none;
+    color: #943D16;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+.hunch li a:hover{
+    background-color: #fff;
+    color: #000;
+}
